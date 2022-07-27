@@ -4026,6 +4026,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Exps.Count,
 		C3.Plugins.System.Acts.NextPrevLayout,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
+		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Behaviors.EightDir.Acts.SetSpeed,
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.Browser.Acts.Close
 	];
@@ -4164,6 +4166,7 @@ self.C3_ExpressionFuncs = [
 		},
 		() => "",
 		() => 100,
+		() => 10,
 		p => {
 			const n0 = p._GetNode(0);
 			return () => n0.ExpInstVar();
@@ -4173,8 +4176,12 @@ self.C3_ExpressionFuncs = [
 		() => 0.7,
 		() => "origin",
 		() => "game over",
+		() => 80,
 		() => "Press Space The Destory Box",
-		() => 2
+		() => 2,
+		() => 50,
+		() => 60,
+		() => 70
 ];
 
 
