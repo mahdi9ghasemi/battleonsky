@@ -1,6 +1,6 @@
 {
-	"name": "BattleOnSky",
-	"short_name": "BattleOnSky",
+	"name": "Battle On Sky",
+	"short_name": "Battle On Sky",
 	"description": "My Game",
 	"start_url": "index.html",
 	"display": "fullscreen",
