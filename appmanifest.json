@@ -1,7 +1,7 @@
 {
 	"name": "Battle On Sky",
 	"short_name": "Battle On Sky",
-	"description": "My Game",
+	"description": "The Shoother Game By Mahdi Ghasemi",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
