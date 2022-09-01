@@ -4257,7 +4257,6 @@ self.C3_ExpressionFuncs = [
 		() => "game over",
 		() => 80,
 		() => "tutorial",
-		() => "Press Space The Destory Box",
 		() => 2,
 		() => 50,
 		() => 60,
