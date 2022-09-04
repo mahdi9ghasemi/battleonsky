@@ -4105,8 +4105,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser.Acts.Close,
 		C3.Plugins.System.Acts.LoadState,
 		C3.Plugins.System.Acts.SaveState,
-		C3.Behaviors.Fade.Acts.StartFade,
-		C3.Plugins.Spritefont2.Acts.Destroy
+		C3.Behaviors.Fade.Acts.StartFade
 	];
 };
 self.C3_JsPropNameTable = [
