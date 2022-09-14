@@ -4090,21 +4090,23 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.Spawn,
 		C3.Plugins.Sprite.Acts.SubInstanceVar,
 		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
+		C3.Plugins.Audio.Acts.Stop,
 		C3.Plugins.Spritefont2.Acts.SetText,
 		C3.Plugins.System.Acts.RestartLayout,
 		C3.Plugins.Keyboard.Cnds.OnKey,
 		C3.Plugins.Browser.Cnds.OnBackButton,
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
+		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.Sprite.Exps.Count,
 		C3.Plugins.System.Acts.NextPrevLayout,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
-		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Behaviors.EightDir.Acts.SetSpeed,
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.Browser.Acts.Close,
 		C3.Plugins.System.Acts.LoadState,
-		C3.Plugins.System.Acts.SaveState
+		C3.Plugins.System.Acts.SaveState,
+		C3.Plugins.System.Cnds.OnLayoutEnd
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4253,6 +4255,7 @@ self.C3_ExpressionFuncs = [
 		() => 3,
 		() => 0.7,
 		() => "origin",
+		() => "music",
 		() => "game over",
 		() => 80,
 		() => "tutorial",
